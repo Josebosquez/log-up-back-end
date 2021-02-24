@@ -29,6 +29,15 @@ if (str.length >= 8 && str.toUpperCase() !== str && str.toLowerCase() !== str){
   }
 }
 
+function isRegisteredUser (str){
+  if (str === user1 | str === user2 | str === user3){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+
 
 
 
