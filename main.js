@@ -37,8 +37,17 @@ function isRegisteredUser (str){
   }
 }
 
-
-
+function passwordMatches (str, str1){
+  if (str === user1 && str1 === password1){
+    return true;
+  } if (str === user2 && str1 === password2){
+    return true;
+  } if (str === user3 && str1 === password3){
+      return true;
+  } else {
+    return false;
+  }
+} 
 
 
 
