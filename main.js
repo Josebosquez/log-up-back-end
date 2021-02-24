@@ -22,8 +22,10 @@ function isValidEmail (str){
 }
 
 function isValidPassword (str){
-if (str.length >= 8 && str.toUpperCase)  {
-  return var1;
+if (str.length >= 8 && str.toUpperCase() !== str && str.toLowerCase() !== str){
+  return true;
+  } else {
+    return false;
   }
 }
 
